@@ -1,0 +1,31 @@
+.mycheckbox {
+  display:none;
+}
+
+.mycheckbox:disabled + label {
+  background:url(images/R_chair.gif) no-repeat left center;
+}
+.mycheckbox:checked + label {
+  background:url(images/Gy_chair.gif) no-repeat left center;
+}
+
+
+
+label {
+padding:2px;
+margin:0px 2px 4px 2px;
+background:url(images/G_chair.gif) no-repeat left center;
+
+}
+label:clicked {
+padding:2px;
+margin:0px 2px 4px 2px;
+background:url(images/Gy_chair.gif) no-repeat left center;
+
+}
+.mycheckbox:checked + span {
+
+background:url(images/Gy_chair.gif) no-repeat left center;
+
+}
+
